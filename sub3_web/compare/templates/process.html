@@ -1,0 +1,12 @@
+{% extends 'header.html' %}
+
+{% load static %}
+
+{% block main %}
+
+{% csrf_token %}
+<section class="related-section section">
+<img src="{{url}}" alt= ""/>
+<h1>HELLO!</h1>
+</section>
+{% endblock main %}

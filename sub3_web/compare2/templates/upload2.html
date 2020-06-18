@@ -1,0 +1,36 @@
+{% extends 'header.html' %}
+
+{% load static %}
+
+{% block main %}	
+    <section class="related-section section">
+        <br/>
+	    <div class="container" >
+
+			<h1 class="primary-title text-center">너의 별명은.(동물)</h1>
+		    <div class="section-intro mb-5 text-center">본인의 사진을 올릴 방식을 선택해주세요</div>
+		   
+		    <div class="row">
+			    <div class="col-6 col-lg-3 mb-5" >
+				    <div class="card text-center">
+					    <a href="{% url 'cam2' %}"><img class="img-fluid" src="{% static 'images/webcam.png' %}" alt=""></a>
+					    <div class="card-body">
+						    <h5 class="card-title">직접 촬영하기</h5>
+					    </div><!--//card-body-->
+				    </div><!--//card-->
+			    </div><!--//col-->
+
+                <div class="col-6 col-lg-3 mb-5">
+				    <div class="card text-center">
+					    <a href="{% url 'testup2' %}"><img class="img-fluid" src="{% static 'images/file_upload.jpg' %}" alt=""></a>
+					    <div class="card-body">
+						    <h5 class="card-title">이미지 올리기</h5>
+					    </div><!--//card-body-->
+				    </div><!--//card-->
+			    </div><!--//col-->
+
+
+        </div><!--//container-->
+        
+    </section><!--//related-section-->
+{% endblock main %}	

@@ -1,0 +1,8 @@
+sub3_ai/.idea
+sub3_ai/.vscode
+sub3_ai/__pycache__/
+*.jpg
+sub3_web/compare/__pycache__/
+sub3_web/mainpage/__pycache__/
+sub3_web/sub3_web/__pycache__/
+*.png

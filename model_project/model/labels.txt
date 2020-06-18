@@ -1,0 +1,10 @@
+0 bear
+1 cat
+2 monkey
+3 elephant
+4 dog
+5 deer
+6 cow
+7 rabbit
+8 wolf
+9 sheep

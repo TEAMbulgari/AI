@@ -1,0 +1,37 @@
+{% extends 'header.html' %}
+
+{% load static %}
+
+{% block main %}
+    <section class="related-section section">
+        <br/>
+	    <div class="container" >
+		    <h1 class="primary-title text-center">너의 별명은.</h1>
+		    <div class="section-intro mb-5 text-center">여러분과 닮은 꼴을 찾아보세요</div>
+		    <div class="row">
+			    <div class="col-6 col-lg-3 mb-5" >
+				    <div class="card text-center">
+					    <a href="uploads"><img class="img-fluid" src="{% static 'images/animal22.PNG' %}" alt=""></a>
+					    <div class="card-body">
+						    <h5 class="card-title">동물</h5>
+						    <p class="card-text">나와 닮은 동물을 찾아보세요.</p>
+					    </div><!--//card-body-->
+				    </div><!--//card-->
+			    </div><!--//col-->
+
+                <div class="col-6 col-lg-3 mb-5">
+				    <div class="card text-center">
+					    <a href="upload"><img class="img-fluid" src="{% static 'images/celebrity.PNG' %}" alt=""></a>
+					    <div class="card-body">
+						    <h5 class="card-title">연예인</h5>
+						    <p class="card-text">나와 닮은 연예인을 찾아보세요.</p>
+					    </div><!--//card-body-->
+				    </div><!--//card-->
+			    </div><!--//col-->
+
+
+		    </div><!--//row-->
+        </div><!--//container-->
+        
+    </section><!--//related-section-->
+{% endblock main %}

@@ -1,0 +1,10 @@
+bearhead
+cathead
+cowhead
+doghead
+elephanthead
+monkeyhead
+pandahead
+rabbithead
+sheephead
+wolfhead
